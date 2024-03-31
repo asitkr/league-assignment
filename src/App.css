@@ -1,0 +1,98 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
+@import url("https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css");
+@import url("https://unicons.iconscout.com/release/v4.0.8/css/line.css");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*========== Colors ==========*/
+:root {
+--container-color: #071436;
+--butt-color: #2294ed;
+--butt-hover-color: #1d69a3;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/*=============== LAYOUT ===============*/
+.section{
+  padding: 3rem 0 2rem;
+}
+
+.container{
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button{
+  background-color: var(--butt-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+
+button:hover{
+  background-color: var(--butt-hover-color);
+}
+
+.news-input{
+  width: 200px;
+  height: 32px;
+  padding-inline: 12px;
+  border-radius: 4px;
+  border: 2px solid #bbd0e2;
+  font-family: "Roboto", sans-serif;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .news-input {
+    width: 180px;
+    height: 28px;
+}
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+
+  .section {
+    padding: 2rem 0 4rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .news-input {
+    width: 160px;
+    height: 23px;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .news-input {
+    width: 150px;
+    height: 21px;
+  }
+}

@@ -1,0 +1,21 @@
+.pagination{
+    display: flex;
+    align-items: center;
+}
+
+.butt{
+    padding: 8px 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #1d69a3;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .pagination{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

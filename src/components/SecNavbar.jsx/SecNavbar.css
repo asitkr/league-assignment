@@ -1,0 +1,63 @@
+.secNavbar{
+    background-color: #ebf1f5;
+    box-shadow: 0 0 4px #00070c;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.nav-filter-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.date-selector{
+    display: flex;
+}
+
+.filteration-data,
+.date-selector,
+.country-name,
+.submit {
+    margin-bottom: 10px; /* Add some margin between the divs */
+}
+
+.n-input{
+    margin-right: 5px;
+}
+
+.search-button {
+    padding: 8px 24px;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .search-button{
+        padding: 6px 22px;
+    }
+    .date-selector,
+    .country-name {
+        width: 48%; /* Two divs in one column */
+    }
+}
+  
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .date-selector,
+    .country-name {
+        width: 100%; /* Two divs in one column */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .search-button {
+        padding: 4px 18px;
+    }
+}
+  
+/* For small devices */
+@media screen and (max-width: 350px) {
+}
+  

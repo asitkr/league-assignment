@@ -1,0 +1,45 @@
+.nav-content{
+    background-color: var(--container-color);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.nav-img{
+    height: 55px;
+    width: 140px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.nav-button {
+    padding: 8px 24px;
+    margin-left: 10px;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .nav-img{
+        height: 45px;
+        width: 130px;
+    }
+    .nav-button {
+        padding: 6px 22px;
+    }
+}
+  
+@media screen and (max-width: 576px) {
+    .nav-img{
+        height: 38px;
+        width: 112px;
+    }
+    .nav-button {
+        display: none;
+    }
+}
+  
